@@ -16,6 +16,8 @@ Currently, this library includes:
 
 **ESP32-S3-Zero Bottom Pads:** The ESP32-S3-Zero has several pads (17, 18, 38-42, and 45) located on the bottom of the PCB module that are currently not included in the footprint. I'm not sure how to properly add these bottom-side pads to the KiCad footprint or if there's a standard way to connect to them. **Help wanted!** If you have experience with this type of footprint design, please contribute or provide guidance.
 
+Additionally, pads 14, 15, and 16 are on the top side of the PCB module and are not included in this surface-mount footprint since there's nothing we can do on that side for a surface-mount design.
+
 ## Installation
 
 > **Note:** This documentation was generated with AI assistance and the installation steps have not been fully tested yet. If you encounter any issues, please open an issue or submit a pull request with corrections.
